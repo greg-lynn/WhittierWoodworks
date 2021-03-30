@@ -1,0 +1,418 @@
+/* HTML */
+
+html {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* BODY */
+
+.body {
+  background-image: url("whittier-background-image.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: repeat;
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+/* Header */
+
+header {
+  /* border: 2px solid pink; */
+  color: white;
+}
+
+header .title {
+  /* border: 1px solid black; */
+  text-align: center;
+  font-family: "Lato";
+  font-size: 45px;
+}
+
+/* Navigation */
+
+header nav {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: monospace;
+}
+
+@media all and (min-width: 700px) {
+  header {
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: ;*/
+  }
+
+  header .title {
+    /* border: 1px solid black; */
+    margin: 14px 0 14px 20px;
+    padding-top: 0px;
+    font-size: 45px;
+    font-family: "Lato"
+  }
+
+  header nav {
+    margin-top: 0px;
+  
+  }
+
+  header nav ul {
+    justify-content: center;
+  }
+}
+
+/* ABOUT ME SECTION (MOBILE FIRST) */
+#about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 3px solid black; */
+  width: 100%;
+  font-family: "Source Sans Pro";
+  color: white;
+}
+
+.about-group {
+  /* border: 2px solid blueviolet; */
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.about-title {
+  /* border: 2px solid green; */
+  text-align: center;`
+}
+
+.explained {
+  /* border: 2px solid red; */
+}
+
+.about-image {
+  /* border: 2px solid blue; */
+  background-image: url("WhittierWoodWorksLogo.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center center;
+  height: 185px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-name {
+  font-family: "Lato";
+}
+
+.about-image-name h5 {
+  color: white;
+}
+
+/* Groups & Items (Desktop) */
+
+@media all and (min-width: 800px) {
+  #about {
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-image {
+    width: 30%;
+  }
+}
+
+/* PORTFOLIO SECTION (MOBILE FIRST) */
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+#portfolio div:hover {
+  transform: scale(0.95);
+}
+
+.portfolio-image-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  background-image: url("whittier-portfolio-image-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.portfolio-image-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  background-image: url("whittier-portfolio-image-2.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.portfolio-image-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  background-image: url("whittier-portfolio-image-3.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.portfolio-image-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  background-image: url("whittier-portfolio-image-4.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.portfolio-image-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  background-image: url("whittier-portfolio-image-5.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.portfolio-image-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  background-image: url("whittier-portfolio-image-6.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.portfolio-image-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  /* border: 1px solid black; */
+  background-image: url("whittier-portfolio-image-7.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  /* background-color: darkcyan; */
+}
+
+#contact a:link {
+  color: lightskyblue;
+}
+
+#contact a:hover {
+  color: white;
+}
+
+.email {
+  /* border: 1px solid blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: floralwhite; */ /* I want to make this look modern */
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.email-icon {
+  background-image: url("whittier-email-icon.png");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.email-icon:hover {
+  transform: scale(0.95);
+}
+
+.email-text {
+  /* border: 1px solid white; */
+  text-align: center;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.phone {
+  /* border: 1px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: floralwhite; */ /* I want to make this look modern */
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.phone-icon {
+  background-image: url("whittier-phone-icon.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 50px;
+  width: 50px;
+}
+
+.phone-icon:hover {
+  transform: scale(0.95);
+}
+
+.phone-text {
+  /* border: 1px solid white; */
+  text-align: center;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.facebook {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: floralwhite; */ /* I want to make this look modern */
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.facebook-icon {
+  background-image: url("whittier-facebook-icon.png");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.facebook-icon:hover {
+  transform: scale(0.95);
+}
+
+
+.facebook-text {
+  /* border: 1px solid white; */
+  text-align: center;
+  margin-bottom: 5px;
+  color: white;
+}
+
+@media all and (min-width: 800px) {
+  #contact {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* .group {
+    flex-direction: row;
+  } */
+}
+
+/* Footer */
+
+footer {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #6b655b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 40px;
+  width: 100%;
+}
+
+.copyright {
+  /* border: 1px solid black; */
+}
+
+.greg {
+  /* border: 1px solid black; */
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
