@@ -22,8 +22,8 @@ function showSlides(n) {
       slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace(" active", ""); //for each click on a dot, move to the next active class
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  slides[slideIndex-1].style.display = "block"; //adds display of block
+  dots[slideIndex-1].className += " active"; //strings together class names
 }
