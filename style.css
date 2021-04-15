@@ -115,7 +115,7 @@ header nav ul li a {
   /* border: 2px solid blueviolet; */
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 60%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
