@@ -1,4 +1,4 @@
-var slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -12,11 +12,11 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("portfolio-image");
-  var dots = document.getElementsByClassName("dot");
+  let i;
+  let slides = document.getElementsByClassName("portfolio-image");
+  let dots = document.getElementsByClassName("dot");
   
-  if (n > slides.length) {slideIndex = 1}
+  if (n > slides.length) {slideIndex = 1} //when at the end of slides, go to slide one
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
